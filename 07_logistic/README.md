@@ -179,10 +179,5 @@ Low Value: 0.05
 
 * BTech CSE Student
 
----
-
-## ⭐ Resume Highlight
-
-* Built an end-to-end customer segmentation system using RFM analysis and optimized multinomial logistic regression with GridSearchCV, achieving ~90% F1-score and enabling data-driven marketing insights.
 
 ---
