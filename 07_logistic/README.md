@@ -1,6 +1,6 @@
-# 🧠 Customer Segmentation Engine (Marketing AI)
+#  Customer Segmentation Engine (Marketing AI)
 
-## 📌 Overview
+##  Overview
 
 This project builds an **end-to-end machine learning system** to segment customers into **High Value, Medium Value, and Low Value groups** using **RFM (Recency, Frequency, Monetary) analysis** and **Multinomial Logistic Regression**.
 
@@ -12,7 +12,7 @@ It simulates a real-world marketing analytics pipeline where businesses can:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * 📊 Complete ML pipeline (data → preprocessing → feature engineering → modeling → evaluation)
 * 🧮 Industry-standard **RFM segmentation**
@@ -31,7 +31,7 @@ It simulates a real-world marketing analytics pipeline where businesses can:
 * **Source:** Kaggle
 * **Link:** https://www.kaggle.com/datasets/carrie1/ecommerce-data
 
-### 📊 Dataset Description
+###  Dataset Description
 
 The dataset contains transactional data of an online retail store:
 
@@ -48,7 +48,7 @@ The dataset contains transactional data of an online retail store:
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 * Removed missing `CustomerID`
 * Removed cancelled transactions (InvoiceNo starting with 'C')
@@ -58,7 +58,7 @@ The dataset contains transactional data of an online retail store:
 
 ---
 
-## 🧠 Feature Engineering (RFM)
+##  Feature Engineering (RFM)
 
 ### RFM Metrics:
 
@@ -78,7 +78,7 @@ The dataset contains transactional data of an online retail store:
 
 ---
 
-## 🤖 Model
+##  Model
 
 * **Algorithm:** Multinomial Logistic Regression
 * **Solver:** lbfgs
@@ -87,7 +87,7 @@ The dataset contains transactional data of an online retail store:
 
 ---
 
-## 📊 Model Performance (After Tuning)
+##  Model Performance (After Tuning)
 
 | Metric      | Score    |
 | ----------- | -------- |
@@ -103,7 +103,7 @@ The dataset contains transactional data of an online retail store:
 
 ---
 
-## 🔍 Key Improvements
+##  Key Improvements
 
 * Applied **GridSearchCV** to tune regularization strength
 * Improved class balance and overall performance
@@ -125,7 +125,7 @@ The dataset contains transactional data of an online retail store:
 
 ---
 
-## 🎯 Sample Prediction
+##  Sample Prediction
 
 ```python
 predict_customer(10, 20, 15000)
@@ -143,7 +143,7 @@ Low Value: 0.05
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 * 🎯 Enables targeted marketing strategies
 * 📉 Helps identify churn-risk customers
@@ -152,7 +152,7 @@ Low Value: 0.05
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -179,10 +179,5 @@ Low Value: 0.05
 
 * BTech CSE Student
 
----
-
-## ⭐ Resume Highlight
-
-* Built an end-to-end customer segmentation system using RFM analysis and optimized multinomial logistic regression with GridSearchCV, achieving ~90% F1-score and enabling data-driven marketing insights.
 
 ---
