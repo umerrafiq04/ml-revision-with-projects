@@ -19,7 +19,7 @@ Each project focuses on a specific algorithm and follows a complete workflow inc
 
 ## Repository Structure
 
-```id="c3h2xg"
+```
 ml-revision-with-projects/
 │
 ├── logistic-regression/
@@ -53,7 +53,62 @@ Each folder contains:
 
 ---
 
-### 2. Customer Segmentation Engine using Multinomial Logistic Regression
+### 2. Cybersecurity Intrusion Detection System using Decision Tree
+
+#### Overview
+
+This project builds a **machine learning-based Intrusion Detection System (IDS)** that classifies network traffic as **Normal or Malicious (Attack)** using features extracted from network flows.
+
+It simulates a real-world cybersecurity system for detecting malicious activities in network traffic.
+
+---
+
+#### Key Features
+
+* End-to-end ML pipeline (EDA → preprocessing → modeling → evaluation → deployment)
+* Handled real-world issues like **data leakage, imbalance, and unseen categories**
+* Used **OrdinalEncoder with unknown handling** for robustness
+* Hyperparameter tuning using **GridSearchCV**
+* Built an interactive **Streamlit web application** for real-time prediction
+* Feature importance analysis for interpretability
+
+---
+
+#### Dataset
+
+* Name: UNSW-NB15 Dataset
+* Type: Network Intrusion Detection Dataset
+* Contains features like protocol, packet counts, byte size, traffic rate
+
+---
+
+#### Model Performance
+
+* Accuracy: **90.6%**
+* Precision: ~0.91
+* Recall: ~0.92 (Attack detection)
+* F1-score: ~0.91
+
+---
+
+#### Key Highlights
+
+* Achieved **balanced performance across both classes**
+* High recall for attacks (critical in cybersecurity systems)
+* Avoided overfitting and unrealistic 100% accuracy
+* Built a deployable ML system
+
+---
+
+#### Screenshots
+
+![Confusion Matrix](screenshots/ids_confusion_matrix.png)
+![Feature Importance](screenshots/ids_feature_importance.png)
+![Streamlit App](screenshots/ids_app.png)
+
+---
+
+### 3. Customer Segmentation Engine using Multinomial Logistic Regression
 
 #### Overview
 
@@ -98,7 +153,7 @@ It simulates a real-world marketing analytics pipeline for targeted decision-mak
 
 ---
 
-### 3. Email / Text Categorization System using Naive Bayes
+### 4. Email / Text Categorization System using Naive Bayes
 
 * Built a multi-class text classification system using the 20 Newsgroups dataset
 * Implemented text preprocessing, TF-IDF vectorization, and feature engineering
@@ -158,6 +213,4 @@ This repository is actively maintained and continuously updated with new Machine
 ## Author
 
 **Umer Rafiq**
-
-* B.Tech CSE Student
----
+*B.Tech CSE Student*
