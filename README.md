@@ -100,14 +100,6 @@ It simulates a real-world cybersecurity system for detecting malicious activitie
 
 ---
 
-#### Screenshots
-
-![Confusion Matrix](screenshots/ids_confusion_matrix.png)
-![Feature Importance](screenshots/ids_feature_importance.png)
-![Streamlit App](screenshots/ids_app.png)
-
----
-
 ### 3. Customer Segmentation Engine using Multinomial Logistic Regression
 
 #### Overview
